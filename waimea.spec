@@ -82,7 +82,14 @@ Dostêpne mo¿liwo¶ci to:
 %{__autoconf}
 %{__autoheader}
 %{__automake}
-%configure
+%configure \
+  --enable-shape \
+  --enable-xinerama \
+  --enable-render \
+  --enable-randr \
+  --enable-xft \
+  --enable-pixmap \
+
 %{__make}
 
 %install
