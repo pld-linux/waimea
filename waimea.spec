@@ -7,6 +7,7 @@ License:	GPL
 Group:		X11/Window Managers
 Source0:	http://www.waimea.org/files/stable/source/%{name}-%{version}.tar.gz
 # Source0-md5:	aecdf2ca8e92d8b41b1a2d795553bc12
+Source1:        %{name}-xsession.desktop
 URL:		http://www.waimea.org/
 BuildRequires:	Xft-devel
 BuildRequires:	autoconf
@@ -88,7 +89,11 @@ Dostêpne mo¿liwo¶ci to:
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/waimea/{actions,styles,scripts,backgrounds},%{_mandir}/man1}
+install -d \
+	$RPM_BUILD_ROOT%{_bindir} \
+	$RPM_BUILD_ROOT%{_datadir}/waimea/{actions,styles,scripts,backgrounds} \
+	$RPM_BUILD_ROOT%{_datadir}/xsessions \
+	$RPM_BUILD_ROOT%{_mandir}/man1
 
 install src/waimea		$RPM_BUILD_ROOT%{_bindir}
 install data/{config,menu}	$RPM_BUILD_ROOT%{_datadir}/waimea
@@ -97,6 +102,8 @@ install data/backgrounds/*.png	$RPM_BUILD_ROOT%{_datadir}/waimea/backgrounds
 install data/scripts/*.pl	$RPM_BUILD_ROOT%{_datadir}/waimea/scripts
 install data/styles/*.style	$RPM_BUILD_ROOT%{_datadir}/waimea/styles
 install doc/waimea.1		$RPM_BUILD_ROOT%{_mandir}/man1
+
+install %{SOURCE1} $RPM_BUILD_ROOT%{_datadir}/xsessions/%{name}.desktop
 
 (cd $RPM_BUILD_ROOT%{_datadir}/waimea/actions; ln -sf action.click-to-focus action)
 
@@ -108,4 +115,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog README
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/%{name}
+%{_datadir}/xsessions/%{name}.desktop
 %{_mandir}/man1/*
