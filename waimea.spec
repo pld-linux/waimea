@@ -14,8 +14,6 @@ BuildRequires:	imlib2-devel
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 The design goal for waimea is to create the most efficient desktop
