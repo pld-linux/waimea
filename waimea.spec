@@ -7,7 +7,7 @@ License:	GPL
 Group:		X11/Window Managers
 Source0:	http://www.waimea.org/files/stable/source/%{name}-%{version}.tar.gz
 # Source0-md5:	aecdf2ca8e92d8b41b1a2d795553bc12
-Source1:        %{name}-xsession.desktop
+Source1:	%{name}-xsession.desktop
 URL:		http://www.waimea.org/
 BuildRequires:	Xft-devel
 BuildRequires:	autoconf
@@ -31,21 +31,20 @@ waimea to behave as any other window manager or in new ways never
 before possible.
 
 Features already included are:
-
-    - Virtual desktop
-    - Multiple desktops
-    - Blackbox image rendering engine (blackbox style support)
-    - Pixmap styles
-    - Translucent textures using Xrender extension
-    - Action Configuration System
-    - Advanced Menu System (with dynamic menus support)
-    - Standard X core fonts
-    - Xft fonts (anti-aliased fonts)
-    - Double buffered text
-    - Dockapp handler system
-    - Task switcher
-    - Configurable titlebar buttons
-    - KDE3/GNOME2 support
+- Virtual desktop
+- Multiple desktops
+- Blackbox image rendering engine (blackbox style support)
+- Pixmap styles
+- Translucent textures using Xrender extension
+- Action Configuration System
+- Advanced Menu System (with dynamic menus support)
+- Standard X core fonts
+- Xft fonts (anti-aliased fonts)
+- Double buffered text
+- Dockapp handler system
+- Task switcher
+- Configurable titlebar buttons
+- KDE3/GNOME2 support
 
 %description -l pl
 Celem przy projektowaniu waimea by³o stworzenie mo¿liwie najbardziej
@@ -61,20 +60,20 @@ Pozwala u¿ytkownikowi ustawiæ, by waimea zachowywa³ siê jak dowolny
 inny zarz±dca okien lub na nowe sposoby, nigdy wcze¶niej nie dostêpne.
 
 Dostêpne mo¿liwo¶ci to:
- - wirtualne pulpity
- - wielokrotne pulpity
- - silnik wy¶wietlania obrazów Blackboksa (obs³uga stylów Blackboksa)
- - style pixmapowe
- - przezroczyste tekstury dziêki rozszerzeniu Xrender
- - system konfiguracji akcji
- - zaawansowany system menu (z obs³ug± dynamicznych menu)
- - standardowe fonty X
- - fonty Xft (z antyaliasingiem)
- - podwójnie buforowany tekst
- - system obs³ugi aplikacji dokowalnych
- - prze³±czanie zadañ
- - konfigurowalne przyciski na belkach tytu³owych
- - obs³uga KDE3/GNOME2.
+- wirtualne pulpity
+- wielokrotne pulpity
+- silnik wy¶wietlania obrazów Blackboksa (obs³uga stylów Blackboksa)
+- style pixmapowe
+- przezroczyste tekstury dziêki rozszerzeniu Xrender
+- system konfiguracji akcji
+- zaawansowany system menu (z obs³ug± dynamicznych menu)
+- standardowe fonty X
+- fonty Xft (z antyaliasingiem)
+- podwójnie buforowany tekst
+- system obs³ugi aplikacji dokowalnych
+- prze³±czanie zadañ
+- konfigurowalne przyciski na belkach tytu³owych
+- obs³uga KDE3/GNOME2.
 
 %prep
 %setup -q
