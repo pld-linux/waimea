@@ -1,14 +1,16 @@
 Summary:	An X11 window manager designed for maximum efficiency
-Summary(pl):	Mened¿er okien zaprojektowany na maksymaln± wydajno¶æ
+Summary(pl):	Zarz±dca okien zaprojektowany pod k±tem maksymalnej wydajno¶ci
 Name:		waimea
 Version:	0.4.0
 Release:	1
 License:	GPL
 Group:		X11/Window Managers
 Source0:	http://www.waimea.org/files/stable/source/%{name}-%{version}.tar.gz
-URL:		www.waimea.org
-BuildRequires:	imlib2-devel
+URL:		http://www.waimea.org/
 BuildRequires:	Xft-devel
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	imlib2-devel
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -44,6 +46,35 @@ Features already included are:
     - Task switcher
     - Configurable titlebar buttons
     - KDE3/GNOME2 support
+
+%description -l pl
+Celem przy projektowaniu waimea by³o stworzenie mo¿liwie najbardziej
+wydajnego ¶rodowiska pracy. Aby osi±gn±æ to, waimea jest szybkim i
+wysoko konfigurowalnym zarz±dc± okien z wielokrotnymi wirtualnymi
+pulpitami. Ma bardzo zaawansowany silnik stylów z mo¿liwo¶ciami takimi
+jak obs³uga stylów blackboksa, pixmapowych i przezroczystych tekstur.
+Tekst mo¿e byæ wy¶wietlany z podwójnym buforowaniem przy u¿yciu fontów
+X i Xft. Waimea zawiera tak¿e szybki, lekki system menu z obs³ug±
+dynamicznych menu. Wbudowany system konfiguracji akcji czyni waimea
+najbardziej konfigurowalnym zarz±dc± okien, jaki jest dostêpny.
+Pozwala u¿ytkownikowi ustawiæ, by waimea zachowywa³ siê jak dowolny
+inny zarz±dca okien lub na nowe sposoby, nigdy wcze¶niej nie dostêpne.
+
+Dostêpne mo¿liwo¶ci to:
+ - wirtualne pulpity
+ - wielokrotne pulpity
+ - silnik wy¶wietlania obrazów Blackboksa (obs³uga stylów Blackboksa)
+ - style pixmapowe
+ - przezroczyste tekstury dziêki rozszerzeniu Xrender
+ - system konfiguracji akcji
+ - zaawansowany system menu (z obs³ug± dynamicznych menu)
+ - standardowe fonty X
+ - fonty Xft (z antyaliasingiem)
+ - podwójnie buforowany tekst
+ - system obs³ugi aplikacji dokowalnych
+ - prze³±czanie zadañ
+ - konfigurowalne przyciski na belkach tytu³owych
+ - obs³uga KDE3/GNOME2.
 
 %prep
 %setup -q
