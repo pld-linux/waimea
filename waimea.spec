@@ -16,7 +16,6 @@ BuildRequires:	imlib2-devel
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-
 %description
 The design goal for waimea is to create the most efficient desktop
 working environment available. To achieve this waimea is a fast and
@@ -104,7 +103,7 @@ install doc/waimea.1		$RPM_BUILD_ROOT%{_mandir}/man1
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_datadir}/xsessions/%{name}.desktop
 
-(cd $RPM_BUILD_ROOT%{_datadir}/waimea/actions; ln -sf action.click-to-focus action)
+ln -s action.click-to-focus $RPM_BUILD_ROOT%{_datadir}/waimea/actions/action
 
 %clean
 rm -rf $RPM_BUILD_ROOT
