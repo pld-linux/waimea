@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Window Managers
 Source0:	http://www.waimea.org/files/stable/source/%{name}-%{version}.tar.gz
+# Source0-md5:	aecdf2ca8e92d8b41b1a2d795553bc12
 URL:		http://www.waimea.org/
 BuildRequires:	Xft-devel
 BuildRequires:	autoconf
