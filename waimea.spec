@@ -1,5 +1,5 @@
 Summary:	An X11 window manager designed for maximum efficiency
-Summary(pl.UTF-8):   Zarządca okien zaprojektowany pod kątem maksymalnej wydajności
+Summary(pl.UTF-8):	Zarządca okien zaprojektowany pod kątem maksymalnej wydajności
 Name:		waimea
 Version:	0.4.0
 Release:	1
