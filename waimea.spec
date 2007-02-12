@@ -1,5 +1,5 @@
 Summary:	An X11 window manager designed for maximum efficiency
-Summary(pl):	Zarz±dca okien zaprojektowany pod k±tem maksymalnej wydajno¶ci
+Summary(pl.UTF-8):   ZarzÄ…dca okien zaprojektowany pod kÄ…tem maksymalnej wydajnoÅ›ci
 Name:		waimea
 Version:	0.4.0
 Release:	1
@@ -45,34 +45,34 @@ Features already included are:
 - Configurable titlebar buttons
 - KDE3/GNOME2 support
 
-%description -l pl
-Celem przy projektowaniu waimea by³o stworzenie mo¿liwie najbardziej
-wydajnego ¶rodowiska pracy. Aby osi±gn±æ to, waimea jest szybkim i
-wysoko konfigurowalnym zarz±dc± okien z wielokrotnymi wirtualnymi
-pulpitami. Ma bardzo zaawansowany silnik stylów z mo¿liwo¶ciami takimi
-jak obs³uga stylów blackboksa, pixmapowych i przezroczystych tekstur.
-Tekst mo¿e byæ wy¶wietlany z podwójnym buforowaniem przy u¿yciu fontów
-X i Xft. Waimea zawiera tak¿e szybki, lekki system menu z obs³ug±
+%description -l pl.UTF-8
+Celem przy projektowaniu waimea byÅ‚o stworzenie moÅ¼liwie najbardziej
+wydajnego Å›rodowiska pracy. Aby osiÄ…gnÄ…Ä‡ to, waimea jest szybkim i
+wysoko konfigurowalnym zarzÄ…dcÄ… okien z wielokrotnymi wirtualnymi
+pulpitami. Ma bardzo zaawansowany silnik stylÃ³w z moÅ¼liwoÅ›ciami takimi
+jak obsÅ‚uga stylÃ³w blackboksa, pixmapowych i przezroczystych tekstur.
+Tekst moÅ¼e byÄ‡ wyÅ›wietlany z podwÃ³jnym buforowaniem przy uÅ¼yciu fontÃ³w
+X i Xft. Waimea zawiera takÅ¼e szybki, lekki system menu z obsÅ‚ugÄ…
 dynamicznych menu. Wbudowany system konfiguracji akcji czyni waimea
-najbardziej konfigurowalnym zarz±dc± okien, jaki jest dostêpny.
-Pozwala u¿ytkownikowi ustawiæ, by waimea zachowywa³ siê jak dowolny
-inny zarz±dca okien lub na nowe sposoby, nigdy wcze¶niej nie dostêpne.
+najbardziej konfigurowalnym zarzÄ…dcÄ… okien, jaki jest dostÄ™pny.
+Pozwala uÅ¼ytkownikowi ustawiÄ‡, by waimea zachowywaÅ‚ siÄ™ jak dowolny
+inny zarzÄ…dca okien lub na nowe sposoby, nigdy wczeÅ›niej nie dostÄ™pne.
 
-Dostêpne mo¿liwo¶ci to:
+DostÄ™pne moÅ¼liwoÅ›ci to:
 - wirtualne pulpity
 - wielokrotne pulpity
-- silnik wy¶wietlania obrazów Blackboksa (obs³uga stylów Blackboksa)
+- silnik wyÅ›wietlania obrazÃ³w Blackboksa (obsÅ‚uga stylÃ³w Blackboksa)
 - style pixmapowe
-- przezroczyste tekstury dziêki rozszerzeniu Xrender
+- przezroczyste tekstury dziÄ™ki rozszerzeniu Xrender
 - system konfiguracji akcji
-- zaawansowany system menu (z obs³ug± dynamicznych menu)
+- zaawansowany system menu (z obsÅ‚ugÄ… dynamicznych menu)
 - standardowe fonty X
 - fonty Xft (z antyaliasingiem)
-- podwójnie buforowany tekst
-- system obs³ugi aplikacji dokowalnych
-- prze³±czanie zadañ
-- konfigurowalne przyciski na belkach tytu³owych
-- obs³uga KDE3/GNOME2.
+- podwÃ³jnie buforowany tekst
+- system obsÅ‚ugi aplikacji dokowalnych
+- przeÅ‚Ä…czanie zadaÅ„
+- konfigurowalne przyciski na belkach tytuÅ‚owych
+- obsÅ‚uga KDE3/GNOME2.
 
 %prep
 %setup -q
